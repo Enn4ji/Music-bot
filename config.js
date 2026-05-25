@@ -4,10 +4,10 @@ module.exports = {
         playing: 'by the Community ❤️',
         global: true,
         guild: process.env.GUILD_ID || 'xxx',
-        extraMessages: false,
-        loopMessage: false,
+        extraMessages: true,
+        loopMessage: true,
         lang: 'en',
-        enableEmojis: false,
+        enableEmojis: true,
     },
 
     emojis:{
